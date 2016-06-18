@@ -1,25 +1,35 @@
-//
-//  ViewController.swift
-//  playAnimation_02
-//
-//  Created by MikeWu on 2016/6/12.
-//  Copyright © 2016年 MSMedia. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var arrow: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
-
-
+    
+    @IBAction func play(sender: AnyObject) {
+        UIView.animateWithDuration(1, animations: {
+            self.arrow.center.x += 200
+            }, completion: { _ in
+                UIView.animateWithDuration(1, animations: {
+                    self.arrow.center.y += 100
+                    }, completion: { _ in
+                        UIView.animateWithDuration(1, animations: {
+                            self.arrow.center.x -= 200
+                            }, completion: { _ in
+                                UIView.animateWithDuration(1, animations: {
+                                    self.arrow.center.y -= 100
+                                    }, completion: nil)
+                        })
+                })
+        })
+    }
+    
 }
-

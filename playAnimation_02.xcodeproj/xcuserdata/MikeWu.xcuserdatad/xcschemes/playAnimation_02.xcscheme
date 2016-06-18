@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6E9CA3EC1D0CEE2600F944E7"
+               BuildableName = "playAnimation_02.app"
+               BlueprintName = "playAnimation_02"
+               ReferencedContainer = "container:playAnimation_02.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6E9CA4001D0CEE2600F944E7"
+               BuildableName = "playAnimation_02Tests.xctest"
+               BlueprintName = "playAnimation_02Tests"
+               ReferencedContainer = "container:playAnimation_02.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6E9CA40B1D0CEE2600F944E7"
+               BuildableName = "playAnimation_02UITests.xctest"
+               BlueprintName = "playAnimation_02UITests"
+               ReferencedContainer = "container:playAnimation_02.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6E9CA3EC1D0CEE2600F944E7"
+            BuildableName = "playAnimation_02.app"
+            BlueprintName = "playAnimation_02"
+            ReferencedContainer = "container:playAnimation_02.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6E9CA3EC1D0CEE2600F944E7"
+            BuildableName = "playAnimation_02.app"
+            BlueprintName = "playAnimation_02"
+            ReferencedContainer = "container:playAnimation_02.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6E9CA3EC1D0CEE2600F944E7"
+            BuildableName = "playAnimation_02.app"
+            BlueprintName = "playAnimation_02"
+            ReferencedContainer = "container:playAnimation_02.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
